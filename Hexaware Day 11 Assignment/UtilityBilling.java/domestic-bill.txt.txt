@@ -1,0 +1,13 @@
+===== DOMESTIC BILL DETAILS =====
+
+Enter consumer name: Harini
+Enter consumer category: domestic
+Enter electricity units consumed: 500
+Is the payment late? true
+Is payment made online? true
+
+========== BILL DETAILS ==========
+Consumer Name : Harini
+Category      : domestic
+Units Used    : 500
+Final Bill    : Rs. 1901.20
