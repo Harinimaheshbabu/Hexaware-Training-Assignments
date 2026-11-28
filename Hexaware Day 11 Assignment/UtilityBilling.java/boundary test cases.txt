@@ -1,0 +1,26 @@
+# Boundary Test Cases – Utility Billing Calculator
+
+## Objective
+To verify the electricity slab calculation at the beginning and end of each consumption slab.
+
+## Test Data
+
+| Test Case | Units Consumed | Expected Energy Charge | Expected Result |
+|---|---:|---:|---|
+| TC01 | 100 | ₹150.00 | Pass |
+| TC02 | 101 | ₹152.50 | Pass |
+| TC03 | 200 | ₹400.00 | Pass |
+| TC04 | 201 | ₹404.00 | Pass |
+| TC05 | 400 | ₹1200.00 | Pass |
+| TC06 | 401 | ₹1206.00 | Pass |
+
+## Calculation Rules
+
+- First 100 units: ₹1.50 per unit
+- Next 100 units: ₹2.50 per unit
+- Next 200 units: ₹4.00 per unit
+- Above 400 units: ₹6.00 per unit
+
+## Conclusion
+
+All six boundary values are selected to check whether the correct slab rate is applied when consumption reaches or crosses a slab limit.
