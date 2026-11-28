@@ -1,0 +1,34 @@
+===== UTILITY BILLING CALCULATOR =====
+
+Enter consumer name: ABC Industries
+Enter consumer category (domestic/commercial/industrial): commercial
+Enter electricity units consumed: 250
+Is the payment late? (true/false): false
+Is payment made online? (true/false): false
+
+========== BILL DETAILS ==========
+Consumer Name : ABC Industries
+Category      : commercial
+Units Used    : 250
+Final Bill    : Rs. 800.00
+
+========== 12 MONTH STATEMENT ==========
+Month  1 : Rs. 800.00
+Month  2 : Rs. 800.00
+Month  3 : Rs. 800.00
+Month  4 : Rs. 800.00
+Month  5 : Rs. 800.00
+Month  6 : Rs. 800.00
+Month  7 : Rs. 800.00
+Month  8 : Rs. 800.00
+Month  9 : Rs. 800.00
+Month 10 : Rs. 800.00
+Month 11 : Rs. 800.00
+Month 12 : Rs. 800.00
+
+========== METER READING ENTRY ==========
+Enter meter reading (0 to stop): 100
+Meter reading recorded: 100
+Enter meter reading (0 to stop): 150
+Meter reading recorded: 150
+Enter meter reading (0 to stop): 0

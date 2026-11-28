@@ -1,0 +1,8 @@
+--- Primitive Casting Examples ---
+
+Integer division: 3
+Correct division: 3.33
+Integer overflow: -2147483648
+Using long: 2147483648
+Double to int: 249
+Rounded price: 250
